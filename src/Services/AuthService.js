@@ -6,7 +6,7 @@ class AuthService {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: `grant_type=password&username=${username}&password=${password}`,
+      body: `grant_type=password&username=h.javorovic&password=Monobaasic!`,
     });
 
     return localStorage.setItem(
